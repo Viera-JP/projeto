@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+:root{
+    --primeira-cor: #E6A800;
+    --segunda-cor:#151515;
+    --terceira-cor:#fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/gallery2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;}
+    
+
+    /*--CABEÇALHO--*/
+header{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    max-height: 200px;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.cabeçalho-link a{
+    color: var(--terceira-cor);
+    font-size: 30px;
+    
+}
+.cabeçalho-link a:hover{
+    color: var(--primeira-cor);
+    transition: 0.3s all;
+    
+}
+
+#logo{
+    scale: 50%;
+}
+
+button{
+    color: var(--primeira-cor);
+    font-size: 25px;
+    background: transparent;
+    border: solid 1px;
+    border-radius: 30px;
+    width: 150px;
+    margin-top: -5px;
+}
+button:hover{
+    color: var(--segunda-cor);
+    background-color: var(--primeira-cor);
+    transition: 0.5s;
+}
+    /*--FIM CABEÇALHO--*/
+
+    /*--HOME--*/
+.container-text{
+    padding: 150px 0 0 250px;
+}
+.text h3{
+    color: var(--primeira-cor);
+    font-size: 90px;
+}
+.text h1{
+    color: var(--terceira-cor);
+    font-size: 120px;
+    
+}
+.text span{
+    color: var(--primeira-cor);
+}
+    /*--FIM HOME--*/
+
+
+
+    /*--ESTOQUE--*/
+    h1{
+	color: var(--primeira-cor);
+    font-size: 80px;
+    margin: 30px;
+}
+
+.main{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.Botao1{
+	text-decoration: none;
+	padding:5px 10px 5px 10px;
+	font-size:35px;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+    color: var(--primeira-cor);
+    background: transparent;
+    border: solid 1px;
+    margin: 5px;
+
+
+}.Botao1:hover{
+    color: var(--terceira-cor);
+    background-color: var(--primeira-cor);
+    transition: 0.5s;
+
+}
+.Botao2{
+	background-color: #d51213;
+	text-decoration: none;
+	padding:5px 10px 5px 10px;
+	color: #fff;
+	font-size:35px;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+    border: solid 1px;
+    margin: 5px;
+	
+}
+.Botao3{
+	padding:5px 10px 5px 10px;
+	font-size:35px;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+    color: var(--terceira-cor);
+    background: var(--primeira-cor);
+    border: solid 1px;
+    margin: 5px;
+
+}
+
+
+.Caixa1{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+}
+
+.Caixa2{
+    width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+}
+
+#tabela{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primeira-cor);
+    border-radius: 20px ;
+    margin-bottom: 5rem;
+    margin-left:28rem;
+    
+    
+    
+}
+
+#tabela th {
+	border: 0px solid #ddd;
+    border-collapse: collapse;
+    border-radius: 20px 20px 0 0;
+	padding: 10px;
+	text-align: center;
+	background-color: var(--primeira-cor);
+	color: #fff;
+    font-size: 35px;
+    letter-spacing: 2px;
+    
+}
+
+#tabela td{
+	border: 0px solid #ddd;
+    border-collapse: collapse;
+    border-radius: 0 0 20px 20px;
+	padding: 10px;
+    background-color: var(--terceira-cor);
+    font-size: 30px;
+    text-align:center;
+    letter-spacing: 2px;
+    
+
+}
+
+.valor{
+    width: 20rem;
+    height:50px;
+    font-size:30px;
+}
+
+footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:5%;
+	text-align:center;
+	margin-top:10px;
+	background-color: var(--primeira-cor);
+	
+}
+
+
+
+    /*--FIM ESTOQUE--*/
+
+
+
+
